@@ -1,0 +1,30 @@
+{
+  "name": "watch-applescript",
+  "version": "0.0.1",
+  "description": "A simple applescript web-page reloader.",
+  "license": "MIT",
+  "author": {
+    "name": "Alex Zlotnik",
+    "email": "zlotnika@gmail.com"
+  },
+  "keywords": [
+    "watch",
+    "refresh",
+    "reload",
+    "browser",
+    "applescript",
+    "auto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zlotnika/watch-applescript.git"
+  },
+  "dependencies": {
+    "applescript": "*",
+    "watch": "*"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "watch-applescript": "index.js"
+  }
+}
